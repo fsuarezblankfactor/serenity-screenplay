@@ -144,7 +144,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Search by keyword","type":"feature","href":"7340372ade9e992b546bdad4be8cf6f2b2d5ff2a581167d17ccc18c60e3f95b2.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Login","type":"feature","href":"215fff75c70ecad26af265ab43918cef847f37b52d28cb24eb29bfbb4a20875e.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -191,10 +191,10 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
-                > <a href="feba01ff5ef2d3cd0cc0011b0c2554af120fd05d3edae5b73b41093ad1f1ebb9.html">Search</a>
+                > <a href="3d15fb224daa0a60e7ea1909c694a3691e714bfa12bf5e64ad63e3c811f33eb3.html">Authentication</a>
 
 
-                    > <span class="truncate-40">Search By Keyword</span>
+                    > <span class="truncate-40">Login</span>
 
             </span>
         </div>
@@ -219,7 +219,7 @@
             <a href="#"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 13-07-2022 00:01</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 14-07-2022 21:44</span>
     <br style="clear:left"/>
 </div>
 
@@ -236,7 +236,7 @@
 
                                     <div class="col-sm-12">
                                         <span>
-                                            <h2><i class="bi bi-book"></i> Feature: Search By Keyword</h2>
+                                            <h2><i class="bi bi-book"></i> Feature: Login</h2>
                                         </span>
                                     </div>
                                 </div>
@@ -283,12 +283,19 @@
                                                 <div id="toc">
                                                     <h3>Overview</h3>
                                                     <table class="table" id="toc-table">
+                                                                <tr>
+                                                                    <td class="rule-toc-entry" colspan="2">
+                                                                        <a href="#c2c9689e-ebc9-4e7b-94b1-c2fc4063c8ca"
+                                                                           title="View scenario details for this rule">
+                                                                            Rule: Customers need to provide valid credentials to access the product catalog
+                                                                    </td>
+                                                                </tr>
                                                                     <tr>
                                                                         <td style="width:95%;" class="toc-title">
-                                                                            <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#d0f15194dbe6ce8bfedd1dd94046026e8255f691bc5d74b15aed36bbc2e59dfb"
+                                                                            <span class="scenario-toc-entry">
+                                                                                    <a href="#b575abf9d7c256bea3230f42e3b3c6fbf569eda744872517151b9dd329977a77"
                                                                                        title="View scenario details">
-                                                                                        <i class="bi bi-chat-dots"></i> Scenario: Searching for a term
+                                                                                        <i class="bi bi-chat-dots"></i> Example: Colin log in with valid credentials
                                                                                     </a>
                                                                                 </span>
                                                                         </td>
@@ -300,14 +307,14 @@
                                                                                 <tr>
                                                                                     <td class="icons-bar">
                                                                                         <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                           href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html"
+                                                                                           href="00ff1e8a462e59e9d087e9230e6497dcf63ba0fd130162767dd93f9b85450517.html"
                                                                                            title="View test results">
                                                                                             <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
                                                                                             </a>
 
 
                                                                                             <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html"
+                                                                                               href="00ff1e8a462e59e9d087e9230e6497dcf63ba0fd130162767dd93f9b85450517.html"
                                                                                                title="View test results">
                                                                                                 <i class="bi bi-eyeglasses"></i>
                                                                                             </a>
@@ -325,17 +332,19 @@
                                             <div class="col-sm-12">
                                                     <h3>Scenarios</h3>
 
-                                                        <a name="b47aeaef-9383-473f-8f27-2ff428c68578"></a>
+                                                        <a name="c2c9689e-ebc9-4e7b-94b1-c2fc4063c8ca"></a>
+                                                            <div class="rule-title">
+                                                                Rule: Customers need to provide valid credentials to access the product catalog</div>
                                                         <p class="rule-tags inline-tag">
                                                         </p>
 
 
-                                                            <div class="scenario-docs card" id="d0f15194dbe6ce8bfedd1dd94046026e8255f691bc5d74b15aed36bbc2e59dfb">
+                                                            <div class="scenario-docs card" id="b575abf9d7c256bea3230f42e3b3c6fbf569eda744872517151b9dd329977a77">
                                                                 <div class="scenario-docs card-header success" style="min-height:1.5em;">
                                                                     <div>
                                                                         <span class="scenario-heading">
-                                                                            <a href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html"
-                                                                               title="View test results">Scenario: Searching for a term</a>
+                                                                            <a href="00ff1e8a462e59e9d087e9230e6497dcf63ba0fd130162767dd93f9b85450517.html"
+                                                                               title="View test results">Example: Colin log in with valid credentials</a>
                                                                         </span>
 
                                                                         <span class="example-tags inline-tag">
@@ -350,9 +359,9 @@
 
                                                                 </div>
                                                                 <div class="scenario-docs card-body">
-                                                                        <p>Given Sergey is researching things on the internet</p>
-                                                                        <p>When he looks up &quot;Cucumber&quot;</p>
-                                                                        <p>Then he should see information about &quot;Cucumber&quot;</p>
+                                                                        <p>Given Colin is on the login page</p>
+                                                                        <p>When Colin logs in with valid credentials</p>
+                                                                        <p>Then he should be presented with the product catalog</p>
                                                                     <div class="examples">
                                                                     </div>
                                                                 </div>
@@ -409,11 +418,11 @@
                                                         <tbody>
                                                             <tr class="scenario-result SUCCESS">
                                                                 <td>
-                                                                        <a href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html">Searching for a term</a>
+                                                                        <a href="00ff1e8a462e59e9d087e9230e6497dcf63ba0fd130162767dd93f9b85450517.html">Colin log in with valid credentials</a>
                                                                 </td>
                                                                 <td>3</td>
-                                                                <td>00:01:35</td>
-                                                                <td>20s 782ms</td>
+                                                                <td>21:44:22</td>
+                                                                <td>16s 775ms</td>
                                                                 <td>
                                                                         <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                             style="display:none">SUCCESS</span>
@@ -460,14 +469,14 @@
 
         // Options define for display value on top of bars
         const outcomeDetailsReports = [
-            { title: 'Passing Scenarios', link: "99bebd63aea496d9808fe3f58ad6b70cf9a5c2e2561f85e336828d999e143881.html" },
-            { title: 'Pending Scenarios', link: "3360f1d5745bce94cf4206ae89e3e173fa09aaba8e2335ef4131a6e24383280d.html" },
-            { title: 'Ignored Scenarios', link: "5872fa53634963b4249f6538a60c829040484077bed44aef8ede703a8027ac8b.html" },
-            { title: 'Skipped Scenarios', link: "4206910c2e0bc40ee5299d734196f2470ca42390d2f38a87ce2ea5c00882777e.html" },
-            { title: 'Aborted Scenarios',  link: "1b701981c22cc715500f68f40559d34154f9c64fbd52967cb4dc7c695eb68a0e.html"},
-            { title: 'Failed Scenarios', link: "3542a7a0f0f214252618d8aaef40883a0d4a5e3af10cdd137f792840e7d0b208.html"  },
-            { title: 'Broken Scenarios', link: "5fb9d23045b34ee73aa15911194ea63fe30d68a7af90f36aa6c3a248d68b0a0f.html"    },
-            { title: 'Compromised Scenarios',  link: "6363763f90dd68f3dd2f645597ad8ffa08bdca2de1b0218977accb55b07e11fe.html" },
+            { title: 'Passing Scenarios', link: "2543197808b5449c0c283cddf26df837ca1db6f2a0258c075f02317bfe81034a.html" },
+            { title: 'Pending Scenarios', link: "13c917064d1a1eeadb5c2fecae137b3ac1ea34a9a5577d49f98f344cba7de158.html" },
+            { title: 'Ignored Scenarios', link: "d16cf488cf3030f53a82661bdc05b4db9add4667562e6845382619085aba54bd.html" },
+            { title: 'Skipped Scenarios', link: "4570c963d6c09a13484b49346c2fd641bad0f650ecbfd73fe7a11a55abb8e5b0.html" },
+            { title: 'Aborted Scenarios',  link: "347e21bac80633af8cfba684bc5d41199142292c179c46b985a134eab658adf4.html"},
+            { title: 'Failed Scenarios', link: "b5622e6356b2482fad859e9b4fe460f1bfbd48df4552b1eecd7f6107871d5419.html"  },
+            { title: 'Broken Scenarios', link: "23a5c3bb34cc84f3a16e273df37b0a5c25706d8bccc53c8f219e1ab5d0a4674a.html"    },
+            { title: 'Compromised Scenarios',  link: "872d1dc62630e603559f0a390508706488c5a4e45d06645c249a4ffe4ea2cccf.html" },
         ]
         const outcomeData = {
             labels: ['Passing Scenarios', 'Pending Scenarios', 'Ignored Scenarios', 'Skipped Scenarios', 'Aborted Scenarios', 'Failed Scenarios', 'Broken Scenarios', 'Compromised Scenarios','Undefined Scenarios'],
@@ -554,14 +563,14 @@
 
         // Options define for display value on top of bars
         const requirementsOutcomeDetailsReports = [
-            { title: 'Passing Scenarios', link: "99bebd63aea496d9808fe3f58ad6b70cf9a5c2e2561f85e336828d999e143881.html" },
-            { title: 'Pending Scenarios', link: "3360f1d5745bce94cf4206ae89e3e173fa09aaba8e2335ef4131a6e24383280d.html" },
-            { title: 'Ignored Scenarios', link: "5872fa53634963b4249f6538a60c829040484077bed44aef8ede703a8027ac8b.html" },
-            { title: 'Skipped Scenarios', link: "4206910c2e0bc40ee5299d734196f2470ca42390d2f38a87ce2ea5c00882777e.html" },
-            { title: 'Aborted Scenarios',  link: "1b701981c22cc715500f68f40559d34154f9c64fbd52967cb4dc7c695eb68a0e.html"},
-            { title: 'Failed Scenarios', link: "3542a7a0f0f214252618d8aaef40883a0d4a5e3af10cdd137f792840e7d0b208.html"  },
-            { title: 'Broken Scenarios', link: "5fb9d23045b34ee73aa15911194ea63fe30d68a7af90f36aa6c3a248d68b0a0f.html"    },
-            { title: 'Compromised Scenarios',  link: "6363763f90dd68f3dd2f645597ad8ffa08bdca2de1b0218977accb55b07e11fe.html" },
+            { title: 'Passing Scenarios', link: "2543197808b5449c0c283cddf26df837ca1db6f2a0258c075f02317bfe81034a.html" },
+            { title: 'Pending Scenarios', link: "13c917064d1a1eeadb5c2fecae137b3ac1ea34a9a5577d49f98f344cba7de158.html" },
+            { title: 'Ignored Scenarios', link: "d16cf488cf3030f53a82661bdc05b4db9add4667562e6845382619085aba54bd.html" },
+            { title: 'Skipped Scenarios', link: "4570c963d6c09a13484b49346c2fd641bad0f650ecbfd73fe7a11a55abb8e5b0.html" },
+            { title: 'Aborted Scenarios',  link: "347e21bac80633af8cfba684bc5d41199142292c179c46b985a134eab658adf4.html"},
+            { title: 'Failed Scenarios', link: "b5622e6356b2482fad859e9b4fe460f1bfbd48df4552b1eecd7f6107871d5419.html"  },
+            { title: 'Broken Scenarios', link: "23a5c3bb34cc84f3a16e273df37b0a5c25706d8bccc53c8f219e1ab5d0a4674a.html"    },
+            { title: 'Compromised Scenarios',  link: "872d1dc62630e603559f0a390508706488c5a4e45d06645c249a4ffe4ea2cccf.html" },
             { title: 'Undefined Scenarios',  link: "" },
         ]
         const requirementsOutcomeData = {
@@ -651,14 +660,14 @@
         // Options define for display value on top of bars
 
         const severityDetailsReports = [
-            { title: 'Passing Scenarios', link: "99bebd63aea496d9808fe3f58ad6b70cf9a5c2e2561f85e336828d999e143881.html" },
-            { title: 'Pending Scenarios', link: "3360f1d5745bce94cf4206ae89e3e173fa09aaba8e2335ef4131a6e24383280d.html" },
-            { title: 'Ignored Scenarios', link: "5872fa53634963b4249f6538a60c829040484077bed44aef8ede703a8027ac8b.html" },
-            { title: 'Skipped Scenarios', link: "4206910c2e0bc40ee5299d734196f2470ca42390d2f38a87ce2ea5c00882777e.html" },
-            { title: 'Aborted Scenarios',  link: "1b701981c22cc715500f68f40559d34154f9c64fbd52967cb4dc7c695eb68a0e.html"},
-            { title: 'Failed Scenarios', link: "3542a7a0f0f214252618d8aaef40883a0d4a5e3af10cdd137f792840e7d0b208.html"  },
-            { title: 'Broken Scenarios', link: "5fb9d23045b34ee73aa15911194ea63fe30d68a7af90f36aa6c3a248d68b0a0f.html"    },
-            { title: 'Compromised Scenarios',  link: "6363763f90dd68f3dd2f645597ad8ffa08bdca2de1b0218977accb55b07e11fe.html" },
+            { title: 'Passing Scenarios', link: "2543197808b5449c0c283cddf26df837ca1db6f2a0258c075f02317bfe81034a.html" },
+            { title: 'Pending Scenarios', link: "13c917064d1a1eeadb5c2fecae137b3ac1ea34a9a5577d49f98f344cba7de158.html" },
+            { title: 'Ignored Scenarios', link: "d16cf488cf3030f53a82661bdc05b4db9add4667562e6845382619085aba54bd.html" },
+            { title: 'Skipped Scenarios', link: "4570c963d6c09a13484b49346c2fd641bad0f650ecbfd73fe7a11a55abb8e5b0.html" },
+            { title: 'Aborted Scenarios',  link: "347e21bac80633af8cfba684bc5d41199142292c179c46b985a134eab658adf4.html"},
+            { title: 'Failed Scenarios', link: "b5622e6356b2482fad859e9b4fe460f1bfbd48df4552b1eecd7f6107871d5419.html"  },
+            { title: 'Broken Scenarios', link: "23a5c3bb34cc84f3a16e273df37b0a5c25706d8bccc53c8f219e1ab5d0a4674a.html"    },
+            { title: 'Compromised Scenarios',  link: "872d1dc62630e603559f0a390508706488c5a4e45d06645c249a4ffe4ea2cccf.html" },
         ]
         const severityData = {
             labels: ['Passing', 'Pending', 'Ignored', 'Skipped', 'Aborted', 'Failed', 'Broken', 'Compromised'],
@@ -729,14 +738,14 @@
 
         // Options define for display value on top of bars
         const durationDetailsReports = [
-                {title: "Under 1 second", link: "e134444bfa25bba92378dd21665b0cff9b37ed98539875f2fa0054bf73298b4a.html"},
-                {title: "1 to 10 seconds", link: "500d523e6c00e1eb1ff390ec3852d0a3acbe31fc6fa4f47162e941035ca50698.html"},
-                {title: "10 to 30 seconds", link: "9cbe7de9b1b0b1528523642290457f90a310cbaeb5c1e8ff41121cc979a39b2b.html"},
-                {title: "30 to 60 seconds", link: "e48d9e0a86d66122adc23421a54bc11e391e3618808d21c1647474f8f82cb44e.html"},
-                {title: "1 to 2 minutes", link: "5ce70fa6d2de686f6f182798c72f59fd9850882073f198a862f4b72e86ad4487.html"},
-                {title: "2 to 5 minutes", link: "62623f49a62e19f0ceda297dd2ad23f541fd329b2633a07930a3c8373882ec50.html"},
-                {title: "5 to 10 minutes", link: "5b84012c164056963b44b6407006803d3542af9a5e48c18e3a6972d01324734f.html"},
-                {title: "10 minutes or over", link: "f6d5bad81c45ca2783ac3c837cad9a94d1394d31e4be192c7b66374203629c91.html"},
+                {title: "Under 1 second", link: "f3929ccd6e7ca8503f4458770849fdb5d304662022a422a1b0307a66e5c8b049.html"},
+                {title: "1 to 10 seconds", link: "c35b6e7ce11f04ddddf715b0cfd7494c97a0ccae1e2a0464aa9129c71da7505d.html"},
+                {title: "10 to 30 seconds", link: "28030c5498daf1e82200f8e45016d2205484852d94bcc0fd56ddfa74f27984d8.html"},
+                {title: "30 to 60 seconds", link: "c08ecf725631652f92487a46f408dbda03a93baa417b0027a5294a72c5076b22.html"},
+                {title: "1 to 2 minutes", link: "7b9e4bb817ed69e08f5b86304f9cb62d3aa6cca9f7daab0cc03767a7b55c85f3.html"},
+                {title: "2 to 5 minutes", link: "e69f732252d5629d4a660c8dc961fb669c3c3090273367abe1de58dc6f9e000e.html"},
+                {title: "5 to 10 minutes", link: "c597b687ce128f69092d3f8ab1b05c276a0cfcdae67d4d651d4288e9bc09045f.html"},
+                {title: "10 minutes or over", link: "82d4c3dbcbfa389b90d60948e12327bc3855d131bbe01b45355b9d01fbdbec16.html"},
         ]
         // The Severity bar chart
         const durationChartCtx = document.getElementById('durationChart');
